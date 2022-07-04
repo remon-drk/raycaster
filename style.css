@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 20px);
+    background-color: black;
+    overflow: hidden;
+}
+
+#canvas {
+    border: 1px solid white;
+
+    width: 80vw; 
+    height: calc(9/16 * 80vw);
+    max-height: 80vh;
+    max-width: calc(16/9 * 80vh);
+}
